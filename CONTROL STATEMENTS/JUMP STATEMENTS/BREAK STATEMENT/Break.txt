@@ -1,0 +1,9 @@
+/*
+As the name suggests, 
+the break statement is used to break the current flow of the program and 
+transfer the control to the next statement outside a loop or switch statement. 
+However, it breaks only the inner loop in the case of the nested loop.
+
+The break statement cannot be used independently in the Java program, i.e., 
+it can only be written inside the loop or switch statement.
+*/

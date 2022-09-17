@@ -1,0 +1,41 @@
+			MULTIDIMENSION ARRAYS
+1.it is also called array of arrays(2d or 3d arrays).
+
+DECLARE:
+1.int[][] a / int[] []a / int a[][] / int[] a[] are allowed.
+int[][] a; this is common
+int[][] a,b; a-2d,b-2d
+int[] a[],b; a-2d,b-1d
+int[] a[],b[]; a-2d,b-2d
+int[][] a,b[]: a-2d,b-3d
+int[][] a,[]b; a-2d, b compile time error
+
+CREATE:
+int[][] a;
+a=new int[2][3];
+if no. of colums are same then it is matrix
+
+jagged array:
+int[][] a;
+a=new int[2][];
+a[0]=new int[3];
+a[1]=new int[2];
+jagged array is a array in which no. of columns are not same.
+
+INITIALIZATION:
+int[][] a;
+a=new int[2][3];
+a[0][0]=10;
+a[0][1]=20;	just provide index number
+
+for matrix:
+int[][] a =new int[2][3];
+int[][] a = {{10,20,30},{40,50,60}};
+
+for jagged array:
+int[][] a;
+a =new int[2][];
+a[0] = new int[4];
+a[1] = new int[3];
+ 3 steps in one:
+int[][] a = {{10,20,30,40},{50,60,70}};

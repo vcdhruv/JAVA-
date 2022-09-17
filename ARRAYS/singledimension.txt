@@ -1,0 +1,41 @@
+1.in java array is object.
+2.super class of array is class object{}.
+3.in java objects are stored in heap memory.
+4.new keyword is used to create objects.
+single dimension arrray: int emp_id[] = new int[1000];
+5.objects are also stored in array.
+class : company
+company c[] = new company[100];
+
+DECLARATION:
+(int[] a,b = int []a,b) != int a[],b
+int[3] a is not allowed , means size cannot be declared here.
+
+CREATION:
+a = new int[3];
+declare the size at the time of creation.
+declaration and creation in single line.
+int[] a = new int[3];
+int[] a = new int[0]; it will compile and run
+int[] a = new int[-3]; it eill compile but not run.
+
+INITIALIZATION:
+1.default value of int array will be 0 and for string it will be null.
+2.Way to initialize
+a[0] = 10;
+a[1] = 20;
+a[2] = 30;
+3.declaration,creation and initialization in one line
+int[] a = {10,20,30}; in these type by default values will not be initialzed to 0.
+int[] a = new int[]{10,20,30};
+
+RETRIEVE/TO GET:
+int[] a = {10,20,30};
+for(int i=0;i<a.length;i++){
+	System.out.println(a[i]);
+}
+FOR EACH:
+for(datatype variable_name : array/collection)
+for(int i : a){
+	System.out.println(i);
+}
